@@ -1,0 +1,9 @@
+from numpy import random
+
+x = random.chisquare(df=2, size=(2, 3))
+
+print(x)
+
+
+[[0.92561339 0.04793202 1.04052521]
+ [1.01740072 0.01158955 0.58450503]]

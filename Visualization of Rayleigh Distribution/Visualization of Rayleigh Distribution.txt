@@ -1,0 +1,11 @@
+from numpy import random
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.distplot(random.rayleigh(size=1000), hist=False)
+
+plt.show()
+
+
+
+C:\Users\My Name>python demo_numpy_random_rayleigh2.py

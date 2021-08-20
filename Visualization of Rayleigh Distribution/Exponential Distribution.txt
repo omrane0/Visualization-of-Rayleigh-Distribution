@@ -1,0 +1,9 @@
+from numpy import random
+
+x = random.exponential(scale=2, size=(2, 3))
+
+print(x)
+
+
+[[2.52507861 1.54446592 0.01740456]
+ [1.58024458 0.02932628 1.28345699]]

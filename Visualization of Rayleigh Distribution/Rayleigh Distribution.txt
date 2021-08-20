@@ -1,0 +1,9 @@
+from numpy import random
+
+x = random.rayleigh(scale=2, size=(2, 3))
+
+print(x)
+
+
+[[1.75408008 1.37775247 1.7746772 ]
+ [1.88938534 1.92397879 6.34963445]]
